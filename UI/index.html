@@ -1,13 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Homepage -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <link rel="stylesheet" href="/UI/css/home.css">
+    <title>HomePage</title>
 </head>
 <body>
-    
+    <!DOCTYPE html>
+    <html>
+    <head>
+           <meta charset="utf-8">
+           <title>Landing Page</title>
+           <script src="https://kit.fontawesome.com/e4780a578d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+         <section>
+                <div class="bg"></div>
+                       <header>
+                              <a href="#" class="logo">Sanity Matters</a>
+                              <ul class="navbar">
+                                     <li><a href="#Home" class="active">Home</a></li>
+                                     <li><a href="#">Login</a></li>
+                                     <li><a href="#">Signup</a></li>
+                                     <li><a href="#">Services</a></li>
+                                     <li><a href="#">Contact</a></li>
+                              </ul>
+                       </header>
+                </div>
+                <div class="content">
+                       <div class="textbox">
+                              <h2>Sound Mind  Matters</h2>
+                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+                                text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <button class="btn41-43 btn-41">Click</button>
+                       </div>
+                       <div class="imgbox">
+                              <img src="assets/src/images (1).jpg" class="Medical">
+                       </div>
+                </div>
+                <ul class="pictures">
+                       <li data="1" ><img src="assets/src/images (2).jpg" onclick="slider('/assets/src/images (2).jpg');BackgroundColor('')"></li>
+                       <li data="2"><img src="assets/src/images (3).jpg" onclick="slider('/assets/src/images (3).jpg');BackgroundColor('')"></li>
+                       <li data="3"><img src="assets/src/images (4).jpg" onclick="slider('/assets/src/images (4).jpg');BackgroundColor('')"></li>
+                       <li data="4"><img src="assets/src/images (5).jpg" onclick="slider('/assets/src/images (5).jpg');BackgroundColor('')"></li>
+                </ul>
+                <div class="socialmedia">
+                       <a href="#"><i class="fa fa-facebook"></i></a>
+                       <a href="#"><i class="fa fa-instagram"></i></a>
+                       <a href="#"><i class="fa fa-snapchat"></i></a>
+                       <a href="#"><i class="fa fa-youtube"></i></a>
+                </div>
+         </section>
+         <script>
+                function slider(somthing) {
+                       document.querySelector('.Medical').src=somthing;
+                }
+                function BackgroundColor(color) {
+                       const bg=document.querySelector('.bg')
+                       bg.style.BackgroundColor=color;
+                }
+         </script>
+    </body>
+    </html> 
 </body>
 </html>
