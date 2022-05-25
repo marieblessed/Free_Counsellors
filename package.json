@@ -1,0 +1,19 @@
+{
+  "name": "free_counsellors",
+  "version": "1.0.0",
+  "description": "my first self-paced server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marieblessed/Free_Counsellors.git"
+  },
+  "author": "marieh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marieblessed/Free_Counsellors/issues"
+  },
+  "homepage": "https://github.com/marieblessed/Free_Counsellors#readme"
+}
